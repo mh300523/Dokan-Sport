@@ -1,0 +1,136 @@
+.search_icon
+{
+    left: 15px;
+}
+.h_recomend
+{
+    margin-right: 12px;
+}
+.t_lang .tl_anc .la_flag
+{
+    margin-right: 5px;
+}
+.t_lang .tl_anc > i
+{
+    margin-left: 2px;
+}
+header .nav_bar > li:not(:last-child)
+{
+    margin-right: 14px;
+}
+.prod_cont .pr_discount
+{
+    left: 10px;
+}
+.ourbest_seller .swiper-button-next:after
+{
+    content: '\f105';
+}
+.ourbest_seller .swiper-button-prev:after
+{
+    content: '\f104';
+}
+.ourbest_seller .swiper-button-next
+{
+    right: -70px;
+}
+.ourbest_seller .swiper-button-prev
+{
+    left: -70px;
+}
+.feat_cont .fe_icon
+{
+    margin-right: 11px;
+}
+.newsl_cont .newsl_title .newb_tit
+{
+    margin-right: 12px;
+}
+.mail_cont .fm_check
+{
+    right: 6px;
+}
+.mail_cont .env_lope
+{
+    left: 24px;
+}
+.foo_social > li:not(:first-child)
+{
+    margin-left: 7px;
+}
+
+@media (min-width:992px) and (max-width:1199px)	
+{
+    .ourbest_seller .swiper-button-prev
+    {
+        right: -12px;
+    }
+    .ourbest_seller .swiper-button-next
+    {
+        left: -12px;
+    }
+    .feat_cont .mafe_tit
+    {
+        font-size: 18px;
+    }
+}
+
+@media (max-width:991px)	
+{
+    footer .fast_links .fsm_title:before
+    {
+        right: 20px;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px)	
+{
+    .ourbest_seller .swiper-button-prev
+    {
+        right: -12px;
+    }
+    .ourbest_seller .swiper-button-next
+    {
+        left: -12px;
+    }
+}
+
+
+
+
+
+@media (max-width:767px)	
+{
+    .h_recomend
+    {
+        margin-right: 0;
+    }
+    .main_nav
+    {
+        left: 0;
+    }
+    .closebtn
+    {
+        right: 20px;
+    }
+    header .nav_bar > li:not(:last-child)
+    {
+        margin-right: 0;
+    }
+    .t_lang.sm
+    {
+        left: 20px;
+    }
+        .nav_bar .sam_menu
+    {
+        margin-left: 20px;
+    }
+    .nav_bar .sam_menu > li > a
+    {
+        text-align: left;
+    }
+    header .nav_bar .dir_anc:after
+    {
+        right: 24px;
+    }
+}

@@ -1,0 +1,132 @@
+.search_icon
+{
+    right: 15px;
+}
+.h_recomend
+{
+    margin-left: 12px;
+}
+.t_lang .tl_anc .la_flag
+{
+    margin-left: 5px;
+}
+.t_lang .tl_anc > i
+{
+    margin-right: 2px;
+}
+header .nav_bar > li:not(:last-child)
+{
+    margin-left: 14px;
+}
+.prod_cont .pr_discount
+{
+    right: 10px;
+}
+.ourbest_seller .swiper-button-next:after
+{
+    content: '\f105';
+}
+.ourbest_seller .swiper-button-prev:after
+{
+    content: '\f104';
+}
+.ourbest_seller .swiper-button-prev
+{
+    left: -70px;
+}
+.ourbest_seller .swiper-button-next
+{
+    right: -70px;
+}
+.feat_cont .fe_icon
+{
+    margin-left: 11px;
+}
+.newsl_cont .newsl_title .newb_tit
+{
+    margin-left: 12px;
+}
+.mail_cont .fm_check
+{
+    left: 6px;
+}
+.mail_cont .env_lope
+{
+    right: 24px;
+}
+.foo_social > li:not(:first-child)
+{
+    margin-right: 7px;
+}
+
+@media (min-width:992px) and (max-width:1199px)	
+{
+    .ourbest_seller .swiper-button-prev
+    {
+        left: -12px;
+    }
+    .ourbest_seller .swiper-button-next
+    {
+        right: -12px;
+    }
+}
+
+@media (max-width:991px)	
+{
+    footer .fast_links .fsm_title:before
+    {
+        left: 20px;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px)	
+{
+    .ourbest_seller .swiper-button-prev
+    {
+        left: -12px;
+    }
+    .ourbest_seller .swiper-button-next
+    {
+        right: -12px;
+    }
+}
+
+
+
+
+
+@media (max-width:767px)	
+{
+    .h_recomend
+    {
+        margin-left: 0;
+    }
+    .main_nav
+    {
+        right: 0;
+    }
+    .closebtn
+    {
+        left: 20px;
+    }
+    header .nav_bar > li:not(:last-child)
+    {
+        margin-left: 0;
+    }
+    .t_lang.sm
+    {
+        right: 20px;
+    }
+    .nav_bar .sam_menu
+    {
+        margin-right: 20px;
+    }
+    .nav_bar .sam_menu > li > a
+    {
+        text-align: right;
+    }
+    header .nav_bar .dir_anc:after
+    {
+        left: 24px;
+    }
+}
